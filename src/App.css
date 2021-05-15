@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -21,18 +22,28 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.brand-logo{
+  position:relative;
+  width:200px;
+  height:200px;
+  margin-top: -60px; 
+  
+}
+
+.img{
+  height: 50%;
+  width: 100%;
 }

@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-
 }
 
 .App-logo {
@@ -29,21 +28,44 @@
   color: #61dafb;
 }
 
+/* For NavBar and Slides */
 .nav-wrapper{
   display: flex;
   justify-content: space-between;
-
 }
-
-.brand-logo{
+.logo{
   position:relative;
   width:200px;
   height:200px;
-  margin-top: -60px; 
-  
+  margin-top: -60px;
 }
-
 .img{
   height: 50%;
   width: 100%;
 }
+
+/* For About */
+.main{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.section-left{
+  max-width: 45%;
+  border-radius: 20px;
+  padding: 40px 60px;
+
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section-right{
+  padding: 40px 48px;
+}
+.section-right-img{
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+

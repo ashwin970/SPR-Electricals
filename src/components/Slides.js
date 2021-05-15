@@ -14,19 +14,19 @@ const Slides=()=>{
             <div className="image-container1">
               <img src={slide1} className="img"/>
             </div>
-            <h2>First Slide</h2>
+
           </div>
           <div className="each-fade">
             <div className="image-container2">
               <img src={slide2} className="img" />
             </div>
-            <h2>Second Slide</h2>
+
           </div>
           <div className="each-fade">
             <div className="image-container3">
               <img src={slide3} className="img"/>
             </div>
-            <h2>Third Slide</h2>
+
           </div>
         </Fade>
       </div>

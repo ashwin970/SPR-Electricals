@@ -1,35 +1,38 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import logo from '../media/logo.png';
 
 class Navbar extends React.Component{
     render(){
         return(
-            <>
-        <nav>
-          <div className="nav-wrapper indigo">
-            <a href='#!' >
-              <img
-                src={logo}
-                alt='Spr Logo'
-                className='brand-logo'
-              />
-            </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="#">Sass</a></li>
-              <li><a href="#">Components</a></li>
-              <li><a href="#">JavaScript</a></li>
-            </ul>
-          </div>
-        </nav>
+           <>
+           <nav>
+                <div className="nav-wrapper indigo">
+                <div className="NavChild1">   
+                <a href="#!" class="brand-logo">
+                    <img src={logo} className="logo"/>
+                </a>
+                </div>
+                <div className="NavChild2">
+                <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                <ul className="right hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                </ul>
+                </div>
+                </div>
+            </nav>
 
-        <ul class="sidenav" id="mobile-demo">
-          <li><a href="#">Sass</a></li>
-          <li><a href="#">Components</a></li>
-          <li><a href="#">Javascript</a></li>
-          <li><a href="#">Mobile</a></li>
-        </ul>
-      </>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+           </>
         );
     }
 }

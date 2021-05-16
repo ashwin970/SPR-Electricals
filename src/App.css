@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -46,6 +50,7 @@
 
 /* For About */
 .main{
+  margin-bottom: 150px;
   flex: 1;
   display: flex;
   align-items: center;
@@ -67,5 +72,71 @@
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* Card side */
 
+.container{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.container .card{
+  position: relative;
+  max-width: 300px;
+  height: 250px;
+  border-radius: 4px;
+  background: #4c6cfa;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.7s ease-in-out;
+}
+.container .card:hover{
+  height: 500px;
+}
+.container .card .imgBx{
+  position: relative;
+  height: 260px;
+  width: 260px;
+  top: -60px;
+  left: 5px;
+  z-index: 1;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 
+}
+.container .card .imgBx img{
+  max-width: 100%;
+  border-radius: 4px;
+}
+.container .card .content{
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+.container .card:hover .content{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay:0.3s;
+}
+
+/* parallax scrolling */
+.keeper{
+  max-width: 100%;
+  margin: 0 auto;
+  background-color:transparent ;
+}
+.parallax-window{
+  
+  min-height: 400px;
+  background: transparent;
+}

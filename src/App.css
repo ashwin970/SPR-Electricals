@@ -136,7 +136,7 @@ html{
   background-color:transparent ;
 }
 .parallax-window{
-
+  margin-bottom: auto;
   height: 400px;
   background: transparent;
   position:relative;
@@ -148,4 +148,16 @@ html{
   top: 40%;
   color: aliceblue;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Footer */
+.container-footer{
+      display: flex;
+      justify-content: space-evenly;
+      background-color:black ;
+      color: whitesmoke;
+      width: 100%;
+}
+.copy{
+  background-color:black ;
+  color: whitesmoke;
 }

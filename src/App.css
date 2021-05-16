@@ -36,6 +36,7 @@ html{
 .nav-wrapper{
   display: flex;
   justify-content: space-between;
+  background-color:#374785 ;
 }
 .logo{
   position:relative;
@@ -136,6 +137,7 @@ html{
   background-color:transparent ;
 }
 .parallax-window{
+
   margin-bottom: auto;
   height: 400px;
   background: transparent;
@@ -153,11 +155,11 @@ html{
 .container-footer{
       display: flex;
       justify-content: space-evenly;
-      background-color:black ;
+      background-color:#24305E ;
       color: whitesmoke;
       width: 100%;
 }
 .copy{
-  background-color:black ;
+  background-color:#24305E ;
   color: whitesmoke;
 }

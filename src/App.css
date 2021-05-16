@@ -136,7 +136,16 @@ html{
   background-color:transparent ;
 }
 .parallax-window{
-  
-  min-height: 400px;
+
+  height: 400px;
   background: transparent;
+  position:relative;
+}
+.info{
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  top: 40%;
+  color: aliceblue;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

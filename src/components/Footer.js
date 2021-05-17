@@ -25,17 +25,17 @@ const Footer =()=>{
                         Explore
                     </h4>
                     <ul>
-                        <Link to="/"><a><li>Home</li></a></Link>
-                        <Link to="/products"><a><li>Products</li></a></Link>
-                        <Link to="/enquiry"><a><li>Enquiry</li></a></Link>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/products">Products</Link></li>
+                        <li><Link to="/enquiry">Enquiry</Link></li>
                     </ul>
 
                 </div>
                 <div className="container-3">
                     <h4>Website By</h4>
                     <ul>
-                    <Link to="http://www.linkedin.com/in/ashwin-kumar97"><li><i class='bx bxl-linkedin-square'></i>Ashwin</li></Link>
-                    <Link to="http://www.linkedin.com/in/ganesh-sethu"><li><i class='bx bxl-linkedin-square' > Ganesh</i></li></Link>
+                    <li><a href="http://www.linkedin.com/in/ashwin-kumar97"><i class='bx bxl-linkedin-square'>Ashwin</i></a></li>
+                    <li><a href="http://www.linkedin.com/in/ganesh-sethu"><i class='bx bxl-linkedin-square'> Ganesh</i></a></li>
                     </ul>
                 </div>
                

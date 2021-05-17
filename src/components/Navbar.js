@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import logo from '../media/logo.png';
+import {Link} from 'react-router-dom';
 
 class Navbar extends React.Component{
     render(){
@@ -17,9 +18,9 @@ class Navbar extends React.Component{
                 <div className="NavChild2">
                 <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                 <ul className="right hide-on-med-and-down">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="/products">Products</a></li>
-                    <li><a href="#">Enquiry</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/products">Products</Link></li>
+                <li><Link to="/enquiry">Enquiry</Link></li>
                     {/* <li><a href="mobile.html">Mobile</a></li> */}
                 </ul>
                 </div>
@@ -27,10 +28,10 @@ class Navbar extends React.Component{
             </nav>
 
             <ul class="sidenav" id="mobile-demo">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
+                <Link to="/"><li>Home</li></Link>
+                <Link to="/products"><li>Products</li></Link>
+                <Link to="/enquiry"><li>Enquiry</li></Link>
+                {/* <li><a href="mobile.html">Mobile</a></li> */}
             </ul>
            </>
         );

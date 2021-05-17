@@ -94,7 +94,7 @@ html{
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
   transition: 0.7s ease-in-out;
 }
 .container .card:hover{
@@ -133,8 +133,7 @@ html{
 /* parallax scrolling */
 .keeper{
   max-width: 100%;
-  margin: 0 auto;
-  background-color:transparent ;
+  margin: auto;
 }
 .parallax-window{
 
@@ -152,6 +151,7 @@ html{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* Footer */
+
 .container-footer{
       display: flex;
       justify-content: space-evenly;
@@ -162,4 +162,14 @@ html{
 .copy{
   background-color:#24305E ;
   color: whitesmoke;
+}
+
+.keeper-enquiry-container{
+  margin:10% 40% 10%;
+  color: #24305E;
+
+}
+.enquiry-container{
+  max-width: 100%;
+  margin-bottom: 20px;
 }
